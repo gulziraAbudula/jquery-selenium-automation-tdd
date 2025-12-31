@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+    <Homepage>
+        <draggableBtn>//a[text() = 'Draggable']</draggableBtn>
+        <droppableBtn>//a[text() = 'Droppable']</droppableBtn>
+        <resizableBtn>//a[text() = 'Resizable']</resizableBtn>
+        <selectableBtn>//a[text() = 'Selectable']</selectableBtn>
+        <sortableBtn>//a[text() = 'Sortable']</sortableBtn>
+        <accordionBtn>(//a[text()='Accordion'])[1]</accordionBtn>
+        <autocompleteBtn>//a[text()='Autocomplete']</autocompleteBtn>
+        <checkBoxRadioBtn>//a[text()='Checkboxradio']</checkBoxRadioBtn>
+        <datePickerBtn>//a[text()='Datepicker']</datePickerBtn>
+        <menuBtn>//a[text()='Menu']</menuBtn>
+        <selectmenuBtn>//a[text()='Selectmenu']</selectmenuBtn>
+        <spinnerBtn>//a[text()='Spinner']</spinnerBtn>
+        <addClassBtn>//a[text()='Add Class']</addClassBtn>
+        <colorAnimationBtn>//a[text()='Color Animation']</colorAnimationBtn>
+        <processerBarBtn>(//a[text()='Progressbar'])</processerBarBtn>
+        <dialogBtn>(//a[text()='Dialog'])</dialogBtn>
+        <positionBtn>//a[text() = 'Position']</positionBtn>
+        <widgetsFactoryBtn>//a[text()='Widget Factory']</widgetsFactoryBtn>
+        <controlGroupBtn>//a[text() ='Controlgroup']</controlGroupBtn>
+        <tabBtn>//a[text() = 'Tabs']</tabBtn>
+
+    </Homepage>
+
+    <DraggablePage>
+        <dragMeAroundBox>draggable</dragMeAroundBox>  <!-- id -->
+        <targetSpace>body[style='cursor: auto;']</targetSpace> <!-- css -->
+    </DraggablePage>
+
+    <DroppablePage>
+        <dragMeToMyTarget>draggable</dragMeToMyTarget>
+        <dropHere>droppable</dropHere>
+        <iframe>//iframe[@class='demo-frame']</iframe>
+        <droppedMsg>//p[text()='Dropped!']</droppedMsg>
+    </DroppablePage>
+
+    <ResizablePage>
+        <resizeElem>resizable</resizeElem>
+        <rightBottomCorner>//div[@id='resizable']/div[3]</rightBottomCorner>
+    </ResizablePage>
+
+    <SelectablePage>
+        <serializeBtn>//a[text()='Serialize']</serializeBtn>
+        <selectedItems>selectable</selectedItems>
+        <feedback>select-result</feedback>
+    </SelectablePage>
+
+</Pages>

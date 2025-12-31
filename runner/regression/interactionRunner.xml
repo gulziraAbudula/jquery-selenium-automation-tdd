@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="SystemTestSuite" thread-count="2" parallel="tests"> -->
+
+<suite name="interaction" parallel="none">
+
+    <test name="WebInteraction">
+        <!-- <parameter name="browser" value="Chrome" /> -->
+        <classes>
+            <class
+                    name="com.automation.jQuery.tests.regression.interactionsModuleTests.DragAndDropTest" />
+            <class
+                    name="com.automation.jQuery.tests.regression.interactionsModuleTests.ResizeSelectItemTest" />
+            <class
+                    name="com.automation.jQuery.tests.regression.interactionsModuleTests.SelectItemTest" />
+            <class
+                    name="com.automation.jQuery.tests.regression.interactionsModuleTests.SortItemsTest" />
+
+        </classes>
+    </test>
+
+    <!-- Test listerners -->
+    <listeners>
+        <listener
+                class-name="com.automation.jQuery.utility.reportRelated.TestListener" />
+    </listeners>
+</suite>
