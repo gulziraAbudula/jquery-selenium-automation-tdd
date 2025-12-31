@@ -63,18 +63,47 @@ Before you begin, ensure you have the following installed:
 ```
 jquery-selenium-automation-tdd/
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── pages/          # Page Object classes
-│   │       └── utils/          # Utility classes
 │   └── test/
 │       ├── java/
-│       │   └── tests/          # Test classes
+│       │   └── com/
+│       │       └── automation/
+│       │           └── jQuery/
+│       │               ├── bases/                      # Base classes
+│       │               │   ├── PageBase.java
+│       │               │   └── TestBase.java
+│       │               ├── pages/                      # Page Object classes
+│       │               │   ├── Homepage.java
+│       │               │   ├── effectsModule/          # Effects module pages
+│       │               │   ├── interactionsModule/     # Interactions module pages
+│       │               │   ├── utilityModule/          # Utility module pages
+│       │               │   ├── widgetsModulePtOne/     # Widgets module part 1 pages
+│       │               │   └── widgetsModulePtTwo/     # Widgets module part 2 pages
+│       │               ├── tests/                      # Test classes
+│       │               │   ├── regression/             # Regression test suites
+│       │               │   │   ├── effectsModuleTests/
+│       │               │   │   ├── interactionsModuleTests/
+│       │               │   │   └── widgetsModulePtOneTests/
+│       │               │   └── smoke/                  # Smoke test suites
+│       │               │       ├── utilityModuleTests/
+│       │               │       └── widgetsModulePtTwoTests/
+│       │               └── utility/                    # Utility classes
+│       │                   ├── dataRelated/            # Data handling utilities
+│       │                   ├── reportRelated/          # Reporting utilities
+│       │                   └── webActionRelated/       # Web interaction utilities
 │       └── resources/
-│           └── testng.xml      # TestNG configuration
-├── test-output/                # Test reports
-├── logs/                       # Log files
-├── pom.xml                     # Maven configuration
+│           ├── locators/
+│           │   └── locators.xml                        # Element locators
+│           └── log4j2.properties                       # Log4j2 configuration
+├── runner/                                             # TestNG runner files
+│   ├── regression/
+│   │   ├── interactionRunner.xml
+│   │   └── widgetsModulePtOneRunner.xml
+│   └── smoke/
+│       └── widgetsModulePtTwoRunner.xml
+├── Screenshots/                                        # Test screenshots
+├── extentReports/                                      # ExtentReports HTML reports
+├── logs/                                               # Log files
+├── pom.xml                                             # Maven configuration
 └── README.md
 ```
 
