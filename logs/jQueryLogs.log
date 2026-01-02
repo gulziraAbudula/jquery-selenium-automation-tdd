@@ -773,3 +773,940 @@
 [INFO ] 2025-12-31 14:19:56.083 [main] Log4jManager - User sort the list of item
 [INFO ] 2025-12-31 14:19:56.126 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
 [INFO ] 2025-12-31 14:19:56.126 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:49:21.665 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:49:21.665 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:49:23.096 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:49:23.097 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:49:27.047 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:27.050 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 11:49:27.506 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:27.508 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 11:49:28.175 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:28.176 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:49:28.592 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:28.593 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 11:49:30.959 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:30.961 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 11:49:31.151 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:31.152 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 11:49:31.177 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 11:49:31.178 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:49:34.010 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:49:34.174 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 11:49:34.188 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 11:49:34.192 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:49:34.444 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:49:35.742 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:49:36.112 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:49:37.439 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:37.441 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 11:49:38.547 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:38.548 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 11:49:38.985 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:38.987 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 11:49:40.033 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:40.035 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:49:41.148 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:41.149 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 11:49:42.336 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:42.337 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 11:49:43.526 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:43.534 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 11:49:43.704 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:43.711 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 11:49:43.764 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 11:49:43.765 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:49:44.991 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:49:45.460 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:49:45.725 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:46.908 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:46.909 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 11:49:48.042 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:48.044 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 11:49:49.943 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 11:49:50.172 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 11:49:50.185 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:49:50.195 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:50.198 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 11:49:51.296 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:51.296 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:49:52.442 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:49:52.976 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:49:53.922 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:53.923 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 11:49:53.954 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 11:49:53.955 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:49:55.893 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:55.926 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 11:49:56.465 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:49:56.847 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:49:58.274 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:58.277 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 11:49:59.382 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:49:59.384 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:49:59.674 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:49:59.675 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 11:50:00.785 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:50:00.786 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:50:01.759 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:50:01.760 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 11:50:01.790 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 11:50:01.790 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:50:06.195 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 11:50:06.195 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 11:50:06.228 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 11:50:06.228 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:54:19.707 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:54:19.740 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:54:20.339 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:54:20.368 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:54:23.199 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:23.201 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 11:54:23.230 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:23.232 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 11:54:24.329 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:24.330 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 11:54:24.355 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:24.355 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:54:27.220 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:27.223 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 11:54:27.273 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 11:54:27.276 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:54:27.289 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:27.291 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 11:54:29.956 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:54:30.411 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:54:30.472 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 11:54:30.479 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 11:54:30.482 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:54:32.024 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:54:32.378 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:54:33.238 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:33.240 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 11:54:34.344 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:34.345 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 11:54:35.290 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:35.292 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 11:54:36.371 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:36.372 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:54:37.480 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:37.481 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 11:54:38.649 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:38.650 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 11:54:39.378 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:39.379 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 11:54:39.411 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 11:54:39.412 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:54:39.814 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:39.814 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 11:54:41.092 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:54:41.479 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:54:41.922 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:43.012 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:43.013 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 11:54:44.291 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:44.291 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 11:54:46.038 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 11:54:46.041 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 11:54:46.043 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:54:46.424 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:46.424 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 11:54:47.438 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:47.439 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:54:47.507 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:54:47.889 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:54:49.766 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:49.767 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 11:54:49.802 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 11:54:49.803 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:54:50.855 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:50.855 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 11:54:51.023 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:54:51.385 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:54:52.975 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:52.976 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 11:54:54.067 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:54.069 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:54:54.321 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:54.322 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 11:54:55.400 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:54:55.401 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:54:56.446 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:54:56.449 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 11:54:56.484 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 11:54:56.485 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:55:00.841 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 11:55:00.843 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 11:55:00.875 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 11:55:00.876 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:58:05.209 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:58:05.228 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:58:05.879 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:58:05.882 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:58:09.150 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:09.152 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 11:58:09.153 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:09.154 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 11:58:10.228 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:10.229 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 11:58:10.236 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:10.237 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:58:12.823 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:12.824 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 11:58:12.860 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 11:58:12.862 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:58:12.905 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:12.905 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 11:58:14.542 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:58:14.899 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:58:15.920 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 11:58:15.923 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 11:58:15.925 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:58:17.158 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:58:17.563 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:58:17.806 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:17.826 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 11:58:18.922 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:18.923 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 11:58:20.473 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:20.474 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 11:58:21.579 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:21.580 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:58:22.633 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:22.636 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 11:58:23.810 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:23.811 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 11:58:23.905 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:23.906 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 11:58:23.933 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 11:58:23.934 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:58:24.940 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:24.940 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 11:58:25.214 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:58:26.583 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:58:27.080 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:28.251 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:28.251 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 11:58:30.707 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:30.709 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 11:58:31.320 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 11:58:31.324 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 11:58:31.327 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:58:32.597 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:58:32.840 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:32.840 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 11:58:33.102 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:58:33.868 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:33.871 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:58:36.022 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:36.023 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 11:58:36.298 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:36.299 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 11:58:36.335 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 11:58:36.336 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:58:37.625 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 11:58:38.035 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 11:58:38.133 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:38.134 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 11:58:39.184 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:39.185 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:58:40.913 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:40.916 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 11:58:41.689 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 11:58:41.689 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 11:58:41.717 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 11:58:41.718 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 11:58:41.947 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 11:58:41.947 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 11:58:47.336 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 11:58:47.337 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 11:58:47.367 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 11:58:47.367 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 12:09:27.980 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 12:09:27.980 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 12:09:47.999 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 12:09:48.002 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 12:10:12.026 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:10:12.026 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:10:12.028 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 12:10:12.029 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 12:10:13.156 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:10:13.156 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 12:10:13.165 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:10:13.166 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 12:10:15.704 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:10:15.705 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 12:10:15.741 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 12:10:15.744 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 12:10:15.804 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:10:15.804 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 12:10:17.764 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 12:10:18.825 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 12:10:18.843 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 12:10:18.848 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 12:10:20.334 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 12:10:40.901 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 12:10:43.318 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 12:11:04.996 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:11:04.999 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 12:11:06.106 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:11:06.107 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 12:11:07.971 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:11:07.973 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 12:11:09.076 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:11:09.077 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 12:11:10.179 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:11:10.180 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 12:11:11.195 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:11:11.196 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 12:11:11.228 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 12:11:11.229 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 12:11:11.311 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:11:11.312 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 12:11:12.497 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:11:12.498 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 12:11:13.052 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 12:11:14.657 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:11:15.770 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:11:15.771 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 12:11:18.869 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 12:11:18.874 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 12:11:18.876 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 12:11:20.214 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 12:11:35.470 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 12:11:41.099 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 12:11:56.989 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:11:56.992 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 12:11:59.150 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:11:59.151 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 12:12:00.248 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:12:00.249 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 12:12:02.636 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:12:02.637 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 12:12:02.674 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 12:12:02.674 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 12:12:03.441 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:12:03.443 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 12:12:04.044 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 12:12:05.589 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:12:05.593 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 12:12:06.696 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:12:06.697 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 12:12:09.079 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:12:09.079 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 12:12:09.105 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 12:12:09.105 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 12:12:23.085 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 12:12:41.937 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 12:12:41.937 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 12:12:43.064 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 12:12:43.065 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 12:12:48.578 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 12:12:48.579 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 12:12:48.608 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 12:12:48.608 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 14:28:59.854 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 14:28:59.868 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 14:29:00.509 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:29:00.510 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:29:03.528 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:03.528 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 14:29:03.664 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:03.664 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 14:29:04.624 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:04.625 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 14:29:04.686 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:04.686 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 14:29:07.149 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:07.151 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 14:29:07.272 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 14:29:07.344 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 14:29:07.367 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:07.368 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 14:29:10.558 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 14:29:10.616 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 14:29:10.629 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 14:29:10.789 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 14:29:11.234 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:29:12.279 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 14:29:12.660 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:29:14.085 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:14.136 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 14:29:15.259 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:15.260 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 14:29:15.567 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:15.568 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 14:29:16.604 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:16.605 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 14:29:17.708 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:17.710 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 14:29:18.818 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:18.819 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 14:29:19.966 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:19.967 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 14:29:20.268 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:20.273 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 14:29:20.304 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 14:29:20.305 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 14:29:21.686 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 14:29:22.066 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:22.108 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:29:23.332 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:23.332 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 14:29:24.809 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:24.811 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 14:29:26.440 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 14:29:26.467 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 14:29:26.474 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 14:29:26.950 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:26.952 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 14:29:27.981 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:27.982 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 14:29:28.119 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 14:29:28.499 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:29:30.370 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:30.371 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 14:29:30.407 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 14:29:30.407 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 14:29:31.252 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:31.252 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 14:29:31.689 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 14:29:32.062 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:29:33.408 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:33.411 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 14:29:34.474 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:34.475 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 14:29:34.835 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:34.836 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 14:29:35.874 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 14:29:35.875 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 14:29:36.949 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 14:29:36.950 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 14:29:36.981 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 14:29:36.982 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 14:29:41.286 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 14:29:41.288 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 14:29:41.332 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 14:29:41.337 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[ERROR] 2026-01-01 14:37:06.615 [main] Log4jManager - something went wrong at startBrowser
+[ERROR] 2026-01-01 14:37:06.615 [main] Log4jManager - something went wrong at startBrowser
+[INFO ] 2026-01-01 14:37:06.618 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:37:06.619 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Skipped
+[INFO ] 2026-01-01 14:37:06.619 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:37:06.619 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Failed
+[INFO ] 2026-01-01 14:37:06.620 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Skipped
+[INFO ] 2026-01-01 14:37:06.621 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Failed
+[ERROR] 2026-01-01 14:37:08.552 [main] Log4jManager - something went wrong at startBrowser
+[INFO ] 2026-01-01 14:37:08.555 [main] Log4jManager - Test Case: TestCase09 on [MenuDropdownTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:37:08.556 [main] Log4jManager - Test Case: TestCase09 on [MenuDropdownTest passed=0 failed=0 skipped=0] Skipped
+[INFO ] 2026-01-01 14:37:08.556 [main] Log4jManager - Test Case: TestCase09 on [MenuDropdownTest passed=0 failed=0 skipped=0] Failed
+[ERROR] 2026-01-01 14:46:38.969 [main] Log4jManager - something went wrong at startBrowser
+[ERROR] 2026-01-01 14:46:38.970 [main] Log4jManager - something went wrong at startBrowser
+[INFO ] 2026-01-01 14:46:38.975 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:46:38.975 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Skipped
+[INFO ] 2026-01-01 14:46:38.975 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:46:38.975 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Skipped
+[INFO ] 2026-01-01 14:46:38.976 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Failed
+[INFO ] 2026-01-01 14:46:38.976 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Failed
+[ERROR] 2026-01-01 14:46:39.530 [main] Log4jManager - something went wrong at startBrowser
+[INFO ] 2026-01-01 14:46:39.533 [main] Log4jManager - Test Case: TestCase09 on [MenuDropdownTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 14:46:39.533 [main] Log4jManager - Test Case: TestCase09 on [MenuDropdownTest passed=0 failed=0 skipped=0] Skipped
+[INFO ] 2026-01-01 14:46:39.534 [main] Log4jManager - Test Case: TestCase09 on [MenuDropdownTest passed=0 failed=0 skipped=0] Failed
+[INFO ] 2026-01-01 15:15:41.328 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:15:41.328 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:15:41.998 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:15:41.998 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:15:45.047 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:15:45.047 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:15:45.048 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 15:15:45.048 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 15:15:46.077 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:15:46.078 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 15:15:46.140 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:15:46.141 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:15:48.998 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:15:49.008 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 15:15:49.064 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 15:15:49.066 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:15:49.930 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:15:49.930 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 15:15:52.148 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:15:52.626 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:15:52.965 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 15:15:52.982 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 15:15:52.987 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:15:54.733 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:15:55.214 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:15:55.514 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:15:55.519 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 15:15:56.598 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:15:56.601 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 15:15:58.030 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:15:58.033 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 15:15:59.142 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:15:59.143 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:16:00.214 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:00.215 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 15:16:01.359 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:01.360 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 15:16:01.672 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:01.673 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 15:16:01.774 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 15:16:01.774 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:16:02.458 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:02.459 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 15:16:03.116 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:16:03.517 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:16:04.580 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:05.757 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:05.757 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 15:16:06.345 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:06.346 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 15:16:08.498 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:08.499 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 15:16:08.825 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 15:16:08.829 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 15:16:08.831 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:16:09.579 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:09.579 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:16:10.147 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:16:10.553 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:16:12.011 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:12.017 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 15:16:12.093 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 15:16:12.094 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:16:13.409 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:13.409 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 15:16:13.481 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:16:13.862 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:16:15.546 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:15.550 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 15:16:16.648 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:16.648 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:16:16.648 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:16.651 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 15:16:17.695 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:16:17.697 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:16:19.096 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:16:19.100 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 15:16:19.148 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 15:16:19.148 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:16:23.126 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 15:16:23.128 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 15:16:23.163 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 15:16:23.163 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:21:56.790 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:21:56.790 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:21:57.260 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:21:57.408 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:22:00.368 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:00.370 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 15:22:00.382 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:00.388 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 15:22:01.445 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:01.446 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 15:22:01.458 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:01.459 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:22:03.984 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:03.987 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 15:22:04.034 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 15:22:04.042 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:22:04.179 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:04.180 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 15:22:07.214 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:22:07.289 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 15:22:07.374 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 15:22:07.383 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:22:07.682 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:22:09.085 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:22:09.550 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:22:10.547 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:10.551 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 15:22:11.612 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:11.613 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 15:22:12.379 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:12.380 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 15:22:13.424 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:13.425 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:22:14.471 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:14.477 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 15:22:15.637 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:15.638 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 15:22:16.632 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:16.633 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 15:22:16.669 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 15:22:16.669 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:22:16.795 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:16.796 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 15:22:18.899 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:22:18.897 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:19.425 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:22:20.120 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:20.122 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 15:22:22.176 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:22.182 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 15:22:23.199 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 15:22:23.203 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 15:22:23.205 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:22:24.312 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:24.312 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 15:22:24.482 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:22:24.852 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:22:25.346 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:25.347 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:22:27.719 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:27.719 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 15:22:27.725 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:27.726 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 15:22:27.751 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 15:22:27.752 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:22:29.053 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 15:22:29.421 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 15:22:29.830 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:29.830 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 15:22:30.915 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:30.916 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:22:32.252 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:32.252 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 15:22:33.311 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 15:22:33.319 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 15:22:33.343 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 15:22:33.349 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 15:22:33.361 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 15:22:33.364 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 15:22:38.809 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 15:22:38.813 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 15:22:38.855 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 15:22:38.856 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:08:43.663 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:08:43.689 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:08:44.197 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:08:44.254 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:08:46.909 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:08:46.912 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 19:08:46.913 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:08:46.916 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 19:08:48.018 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:08:48.019 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 19:08:48.058 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:08:48.058 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:08:50.589 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:08:50.592 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 19:08:50.634 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 19:08:50.635 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:08:50.672 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:08:50.673 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 19:08:52.061 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:08:52.459 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:08:53.741 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 19:08:53.744 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 19:08:53.746 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:08:54.868 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:08:54.870 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 19:08:55.277 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:08:55.626 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:08:55.909 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:08:55.913 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 19:08:58.058 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:08:58.059 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 19:08:59.134 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:08:59.134 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:00.206 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:00.208 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 19:09:00.838 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:00.838 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 19:09:00.857 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 19:09:00.858 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:01.341 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:01.341 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 19:09:02.394 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:02.526 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:02.527 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 19:09:02.759 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:04.616 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:05.180 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:05.181 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 19:09:05.707 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:05.708 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 19:09:07.317 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:07.318 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 19:09:08.384 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:08.385 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:08.811 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 19:09:08.814 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 19:09:08.815 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:10.157 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:10.510 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:10.791 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:10.793 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 19:09:10.821 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 19:09:10.821 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:12.142 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:12.525 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:12.958 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:12.960 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 19:09:15.035 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:15.037 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 19:09:15.039 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:15.040 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 19:09:16.136 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:16.138 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:16.143 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:16.143 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:18.450 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:18.453 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 19:09:18.483 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 19:09:18.484 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:21.521 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 19:09:21.522 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 19:09:21.553 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 19:09:21.553 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:31.344 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:31.345 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:31.755 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:31.757 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:34.257 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:34.258 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 19:09:34.327 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:34.327 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 19:09:35.377 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:35.378 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:35.413 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:35.414 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:37.993 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:37.993 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 19:09:38.032 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 19:09:38.040 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:38.119 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:38.119 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 19:09:39.359 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:39.737 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:41.212 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 19:09:41.224 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 19:09:41.229 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:42.174 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:42.174 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 19:09:42.726 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:43.094 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:43.259 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:43.260 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:45.599 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:45.600 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 19:09:46.701 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:46.703 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:47.812 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:47.814 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 19:09:48.389 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:48.390 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 19:09:48.424 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 19:09:48.425 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:48.924 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:48.925 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 19:09:49.708 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:50.024 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:50.025 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 19:09:50.112 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:52.213 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:52.588 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:52.592 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 19:09:53.380 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:53.381 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 19:09:54.722 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:54.724 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 19:09:55.815 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:09:55.817 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:09:56.493 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 19:09:56.496 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 19:09:56.497 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:57.974 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:09:58.291 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:09:58.292 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 19:09:58.318 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 19:09:58.320 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:09:58.357 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:09:59.726 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 19:10:00.099 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 19:10:01.161 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:10:01.169 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 19:10:02.677 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:10:02.683 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 19:10:03.359 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:10:03.360 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 19:10:03.797 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:10:03.798 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:10:04.418 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 19:10:04.420 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 19:10:06.858 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 19:10:06.859 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 19:10:06.895 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 19:10:06.895 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 19:10:09.284 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 19:10:09.285 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 19:10:09.317 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 19:10:09.318 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:19:47.389 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:19:47.389 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:19:47.824 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:19:47.959 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:19:50.809 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:19:50.810 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 20:19:50.863 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:19:50.863 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 20:19:51.849 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:19:51.850 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:19:51.883 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:19:51.883 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 20:19:54.290 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:19:54.291 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 20:19:54.325 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 20:19:54.327 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:19:54.444 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:19:54.445 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 20:19:55.793 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:19:56.145 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:19:57.461 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 20:19:57.474 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 20:19:57.478 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:19:58.744 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:19:59.003 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:19:59.004 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 20:19:59.108 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:20:00.032 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:00.032 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 20:20:01.970 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:01.972 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 20:20:02.995 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:02.996 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:20:04.030 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:04.031 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 20:20:04.817 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:04.818 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 20:20:04.849 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 20:20:04.850 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:20:05.135 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:05.136 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 20:20:06.102 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:20:06.209 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:06.210 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 20:20:07.274 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:20:08.304 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:09.388 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:09.389 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 20:20:10.477 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:10.478 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 20:20:12.417 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 20:20:12.423 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 20:20:12.425 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:20:12.549 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:12.550 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 20:20:13.569 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:13.571 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:20:13.667 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:20:14.030 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:20:15.861 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:15.865 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 20:20:15.896 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 20:20:15.897 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:20:16.924 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:16.925 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 20:20:17.236 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:20:17.597 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:20:18.994 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:18.996 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 20:20:20.014 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:20.015 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:20:20.446 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:20.448 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 20:20:21.477 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:20:21.478 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:20:22.331 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:20:22.332 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 20:20:22.365 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 20:20:22.366 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:20:26.776 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 20:20:26.777 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 20:20:26.804 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 20:20:26.805 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:26:17.556 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:26:17.556 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:26:18.178 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:26:18.178 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:26:20.996 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:20.996 [main] Log4jManager - User click Droppable Button
+[INFO ] 2026-01-01 20:26:21.109 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:21.109 [main] Log4jManager - User click Autocomplete Button
+[INFO ] 2026-01-01 20:26:22.027 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:22.027 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 20:26:22.148 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:22.148 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:26:24.445 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:24.446 [main] Log4jManager - User draged the box to the target box
+[INFO ] 2026-01-01 20:26:24.479 [main] Log4jManager - Verified theBy.xpath: //p[text()='Dropped!'] with Dropped!
+[INFO ] 2026-01-01 20:26:24.481 [main] Log4jManager - Test Case: TestCase01 on [DragAndDropTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:26:24.732 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:24.732 [main] Log4jManager - User clicked auto displayed option
+[INFO ] 2026-01-01 20:26:25.885 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:26:27.750 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 20:26:27.768 [main] Log4jManager - verifying actual attribute: ui-id-2 with expected attribute: ui-id-2
+[INFO ] 2026-01-01 20:26:27.772 [main] Log4jManager - Test Case: TestCase06 on [AutocompleteTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:26:28.743 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:26:29.123 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:26:31.780 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:26:33.941 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:33.943 [main] Log4jManager - User click Resizable Button
+[INFO ] 2026-01-01 20:26:34.598 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:34.600 [main] Log4jManager - User click Checkboxradio Button
+[INFO ] 2026-01-01 20:26:34.985 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:34.986 [main] Log4jManager - driver switched to iframe driver
+[INFO ] 2026-01-01 20:26:35.628 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:35.628 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:26:36.658 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:36.659 [main] Log4jManager - User scrolled down the selection section
+[INFO ] 2026-01-01 20:26:37.756 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:37.756 [main] Log4jManager - User clicked the location of the hotel
+[INFO ] 2026-01-01 20:26:38.837 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:38.838 [main] Log4jManager - User clicked the rating of the hotel
+[INFO ] 2026-01-01 20:26:39.761 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:39.762 [main] Log4jManager - User resized the selected box
+[INFO ] 2026-01-01 20:26:39.789 [main] Log4jManager - verifying actual attribute: width: 250px; height: 250px; with expected attribute: width: 250px; height: 250px;
+[INFO ] 2026-01-01 20:26:39.790 [main] Log4jManager - Test Case: TestCase02 on [ResizeSelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:26:40.935 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:40.969 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:26:41.319 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:26:42.044 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:42.045 [main] Log4jManager - User clicked multiple options for bed type
+[INFO ] 2026-01-01 20:26:43.914 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:43.915 [main] Log4jManager - User click Selectable Button
+[INFO ] 2026-01-01 20:26:45.083 [main] Log4jManager - waited for 3 seconds
+[INFO ] 2026-01-01 20:26:45.085 [main] Log4jManager - verifying actual attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank with expected attribute: ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank
+[INFO ] 2026-01-01 20:26:45.086 [main] Log4jManager - Test Case: TestCase07 on [CheckBoxRadioTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:26:45.995 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:45.996 [main] Log4jManager - User cliked Serialize Button
+[INFO ] 2026-01-01 20:26:46.311 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:26:46.529 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:26:47.010 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:47.011 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:26:49.298 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:49.298 [main] Log4jManager - User selected an item
+[INFO ] 2026-01-01 20:26:49.328 [main] Log4jManager - Verified theBy.id: select-result with #2 #3 #4
+[INFO ] 2026-01-01 20:26:49.329 [main] Log4jManager - Test Case: TestCase03 on [SelectItemTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:26:49.517 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:49.517 [main] Log4jManager - User click Accordion Button
+[INFO ] 2026-01-01 20:26:50.501 [main] Log4jManager - Successfully Initiated Chrome Driver
+[INFO ] 2026-01-01 20:26:50.858 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Started
+[INFO ] 2026-01-01 20:26:51.564 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:51.566 [main] Log4jManager - User cliked Sortable Button
+[INFO ] 2026-01-01 20:26:52.589 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:52.590 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:26:53.698 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:53.698 [main] Log4jManager - User click Sortable Button
+[INFO ] 2026-01-01 20:26:54.724 [main] Log4jManager - waited for 1 seconds
+[INFO ] 2026-01-01 20:26:54.724 [main] Log4jManager - Driver switched to iframe driver
+[INFO ] 2026-01-01 20:26:54.898 [main] Log4jManager - waited for 2 seconds
+[INFO ] 2026-01-01 20:26:54.898 [main] Log4jManager - User dragged the selected sections to target area
+[INFO ] 2026-01-01 20:26:54.917 [main] Log4jManager - verify the actual section: Section 2with expected section: Section 2
+[INFO ] 2026-01-01 20:26:54.918 [main] Log4jManager - Test Case: TestCase05 on [SortingAccordionSectionsTest passed=0 failed=0 skipped=0] Passed
+[INFO ] 2026-01-01 20:27:00.026 [main] Log4jManager - waited for 5 seconds
+[INFO ] 2026-01-01 20:27:00.026 [main] Log4jManager - User sort the list of item
+[INFO ] 2026-01-01 20:27:00.051 [main] Log4jManager - verify the actual item: Item 1with expected item: Item 1
+[INFO ] 2026-01-01 20:27:00.052 [main] Log4jManager - Test Case: TestCase04 on [SortItemsTest passed=0 failed=0 skipped=0] Passed

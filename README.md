@@ -223,7 +223,13 @@ TestNG also generates default reports:
 - `test-output/index.html`: Main report
 - `test-output/emailable-report.html`: Email-friendly report
 
-## Contributing
+# Video Walkthrough
+
+Here's a walkthrough of test run:
+
+<img src='/jquery-tdd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+# Contributing
 
 Contributions are welcome! Please follow these steps:
 
