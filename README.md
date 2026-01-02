@@ -599,11 +599,9 @@ Here's a walkthrough of a test run:
 
 <div align="center">
 
-**Made with ❤️ by [Gulzira Abdullah](https://github.com/gulziraAbudula)**
+**Made by [Gulzira Abdullah](https://github.com/gulziraAbudula)**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gulziraa/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gulziraAbudula)
-
-If you found this framework helpful, please consider giving it a ⭐
 
 </div>
