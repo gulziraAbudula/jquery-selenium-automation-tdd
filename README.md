@@ -1,6 +1,13 @@
-# jquery-selenium-automation-tdd
-
+<div align="center">
+Show Image
+Show Image
+Show Image
+Show Image
+Show Image
+Show Image
 Selenium-based test-driven automation framework for jQuery UI components. Built with Java, TestNG, and Maven using the Page Object Model design pattern. Features parallel execution, Log4j2 logging, and ExtentReports for comprehensive test reporting.
+Quick Start • Features • Documentation • Contributing
+</div>
 
 ## Table of Contents
 
