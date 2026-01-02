@@ -30,10 +30,25 @@ public class TestBase extends TestListener {
     public void beforeEachMethod() {
 
         String browser = System.getProperty("browser");
-        driver = BrowserUtil.startBrowser(browser);
-        // driver = BrowserUtil.startDockerContainerBrowser(browser);
-        //driver = BrowserUtil.startBrowser("chrome");
+        String executionMode = System.getProperty("execution.mode", "local");
+
+        // Dynamically invoke the appropriate method based on execution mode
+        if ("docker".equalsIgnoreCase(executionMode)) {
+            driver = BrowserUtil.startDockerContainerBrowser(browser);
+        } else if ("private".equalsIgnoreCase(executionMode)) {
+            driver = BrowserUtil.startBrowserInPrivateMode(browser);
+        } else {
+            // Default to regular browser mode
+            driver = BrowserUtil.startBrowser(browser);
+        }
+
         driver.get("https://jqueryui.com/");
+
+        //        String browser = System.getProperty("browser");
+////        driver = BrowserUtil.startBrowser(browser);
+//        driver = BrowserUtil.startDockerContainerBrowser(browser);
+//        //driver = BrowserUtil.startBrowser("chrome");
+//        driver.get("https://jqueryui.com/");
 
         /*
          * System.out.println("Initiating Chrome Driver"); String driverPath =

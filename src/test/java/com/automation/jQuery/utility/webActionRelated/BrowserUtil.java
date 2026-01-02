@@ -125,10 +125,11 @@ public class BrowserUtil extends TestBase {
     private static WebDriver startDockerContainerChromeBrowser() {
         System.out.println("Initiating Chrome Driver in Docker Container");
         try {
-            ChromeOptions options = new ChromeOptions();
-            options.setCapability("timeoutInSeconds", 600);
+            String huburl = "http://localhost:4444";
 
-            driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"), options);
+            ChromeOptions options = new ChromeOptions();
+
+            driver = new RemoteWebDriver(new URL(huburl), options);
             configureDriver();
         } catch (Exception ex) {
             error("Failed to initialize Chrome Driver in Docker");
@@ -141,10 +142,11 @@ public class BrowserUtil extends TestBase {
     private static WebDriver startDockerContainerFirefoxBrowser() {
         System.out.println("Initiating Firefox Driver in Docker Container");
         try {
-            FirefoxOptions options = new FirefoxOptions();
-            options.setCapability("timeoutInSeconds", 120);
+            String huburl = "http://localhost:4444";
 
-            driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"), options);
+            FirefoxOptions options = new FirefoxOptions();
+
+            driver = new RemoteWebDriver(new URL(huburl), options);
             configureDriver();
         } catch (Exception ex) {
             error("Failed to initialize Firefox Driver in Docker");
