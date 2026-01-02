@@ -1,244 +1,609 @@
-# jquery-selenium-automation-tdd
+# 🧪 jQuery Selenium Automation TDD Framework
 
-Selenium-based test-driven automation framework for jQuery UI components. Built with Java, TestNG, and Maven using the Page Object Model design pattern. Features parallel execution, Log4j2 logging, and ExtentReports for comprehensive test reporting.
+![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square)
+![Selenium](https://img.shields.io/badge/Selenium-4.29-green?style=flat-square)
+![TestNG](https://img.shields.io/badge/TestNG-7.9-blue?style=flat-square)
+![Maven](https://img.shields.io/badge/Maven-3.9-lightblue?style=flat-square)
 
-## Table of Contents
+Selenium TDD automation framework for jQuery UI components. Built with Java, Maven, TestNG using **Page Object Model** with parallel execution, Log4j2 logging, and ExtentReports.
 
-- [Overview](#overview)
+---
+
+## 📋 Table of Contents
+
+- [Quick Start](#quick-start)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 - [Project Structure](#project-structure)
-- [Usage](#usage)
 - [Running Tests](#running-tests)
-- [Configuration](#configuration)
-- [Reporting](#reporting)
+- [Usage Guide](#usage-guide)
+- [FAQ](#faq)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Overview
+---
 
-This project provides a robust automation testing framework specifically designed for testing jQuery UI components using Selenium WebDriver. It follows Test-Driven Development (TDD) principles and implements the Page Object Model (POM) pattern for maintainable and scalable test automation.
+## 🚀 Quick Start
 
-## Features
+```bash
+# Clone and setup
+git clone https://github.com/gulziraAbudula/jquery-selenium-automation-tdd.git
+cd jquery-selenium-automation-tdd
+mvn clean install
 
-- **Page Object Model (POM)**: Clean separation of test logic and page-specific code
-- **TestNG Framework**: Powerful test configuration and parallel execution
-- **Maven Build Tool**: Dependency management and build lifecycle
-- **Parallel Execution**: Run tests concurrently for faster feedback
-- **Log4j2 Logging**: Comprehensive logging for debugging and analysis
-- **ExtentReports**: Rich HTML test reports with screenshots
-- **jQuery UI Focus**: Specialized support for jQuery UI components
-- **Cross-browser Testing**: Support for multiple browsers (Chrome, Firefox, Edge, etc.)
+# Run tests
+mvn clean test                           # Chrome (default)
+mvn clean test -Dbrowser=firefox         # Firefox
+mvn test -Dparallel=methods -DthreadCount=4  # Parallel (4 threads)
+```
 
-## Prerequisites
+View reports: `open extentReports/myExtentReport*.html`
 
-Before you begin, ensure you have the following installed:
+---
 
-- **Java Development Kit (JDK)**: Version 8 or higher
-- **Apache Maven**: Version 3.6 or higher
-- **Web Browsers**: Chrome, Firefox, or other browsers you want to test on
-- **WebDriver**: Appropriate drivers for your target browsers (ChromeDriver, GeckoDriver, etc.)
+## ✨ Features
 
-## Installation
+- 🎯 **Page Object Model** - Clean architecture with separated page logic
+- ⚡ **Parallel Execution** - Run tests concurrently (up to 8 threads)
+- 📊 **ExtentReports** - Beautiful HTML reports with screenshots
+- 📝 **Log4j2 Logging** - Comprehensive logging for debugging
+- 🌐 **Cross-browser Testing** - Chrome, Firefox, Edge support
+- 🔄 **CI/CD Ready** - Jenkins & GitHub Actions compatible
+- 📦 **Maven** - Dependency management & build automation
+- 🧪 **TDD Principles** - Test-driven development approach
+- 🏗️ **Modular Architecture** - Organized by functional modules
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/gulziraAbudula/jquery-selenium-automation-tdd.git
-   cd jquery-selenium-automation-tdd
-   ```
+---
 
-2. **Install dependencies**:
-   ```bash
-   mvn clean install
-   ```
+## 📋 Prerequisites
 
-3. **Configure WebDriver**:
-   - Download the appropriate WebDriver executable for your browser
-   - Add the WebDriver location to your system PATH, or
-   - Specify the driver path in your test configuration
+- **Java 21+** - [Download JDK 21](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
+- **Maven 3.9+** - [Download Maven](https://maven.apache.org/download.cgi)
+- **Git** - [Download Git](https://git-scm.com/)
+- **Browsers** - Chrome or Firefox (latest)
 
-## Project Structure
+> **Note:** WebDriverManager automatically downloads the correct driver version. No manual setup needed!
+
+---
+
+## 📁 Project Structure
 
 ```
 jquery-selenium-automation-tdd/
-├── src/
-│   └── test/
-│       ├── java/
-│       │   └── com/
-│       │       └── automation/
-│       │           └── jQuery/
-│       │               ├── bases/                      # Base classes
-│       │               │   ├── PageBase.java
-│       │               │   └── TestBase.java
-│       │               ├── pages/                      # Page Object classes
-│       │               │   ├── Homepage.java
-│       │               │   ├── effectsModule/          # Effects module pages
-│       │               │   ├── interactionsModule/     # Interactions module pages
-│       │               │   ├── utilityModule/          # Utility module pages
-│       │               │   ├── widgetsModulePtOne/     # Widgets module part 1 pages
-│       │               │   └── widgetsModulePtTwo/     # Widgets module part 2 pages
-│       │               ├── tests/                      # Test classes
-│       │               │   ├── regression/             # Regression test suites
-│       │               │   │   ├── effectsModuleTests/
-│       │               │   │   ├── interactionsModuleTests/
-│       │               │   │   └── widgetsModulePtOneTests/
-│       │               │   └── smoke/                  # Smoke test suites
-│       │               │       ├── utilityModuleTests/
-│       │               │       └── widgetsModulePtTwoTests/
-│       │               └── utility/                    # Utility classes
-│       │                   ├── dataRelated/            # Data handling utilities
-│       │                   ├── reportRelated/          # Reporting utilities
-│       │                   └── webActionRelated/       # Web interaction utilities
-│       └── resources/
-│           ├── locators/
-│           │   └── locators.xml                        # Element locators
-│           └── log4j2.properties                       # Log4j2 configuration
-├── runner/                                             # TestNG runner files
+│
+├── src/test/
+│   ├── java/com/automation/jQuery/
+│   │   ├── bases/
+│   │   │   ├── PageBase.java              # Base page object methods
+│   │   │   ├── TestBase.java              # Base test setup/teardown
+│   │   │   └── TestListener.java          # ExtentReports listener
+│   │   │
+│   │   ├── pages/                         # Page Objects (organized by module)
+│   │   │   ├── interactionsModule/
+│   │   │   │   ├── DragAndDropPage.java
+│   │   │   │   ├── DroppablePage.java
+│   │   │   │   └── ResizablePage.java
+│   │   │   ├── widgetsModulePtOne/
+│   │   │   │   ├── AccordionPage.java
+│   │   │   │   ├── AutocompletePage.java
+│   │   │   │   └── DatepickerPage.java
+│   │   │   └── widgetsModulePtTwo/
+│   │   │       ├── DialogPage.java
+│   │   │       └── TabsPage.java
+│   │   │
+│   │   ├── tests/                         # Test classes
+│   │   │   ├── regression/
+│   │   │   │   ├── interactionsModuleTests/
+│   │   │   │   └── widgetsModulePtOneTests/
+│   │   │   └── smoke/
+│   │   │       └── widgetsModulePtTwoTests/
+│   │   │
+│   │   └── utility/                       # Utility classes
+│   │       ├── dataRelated/
+│   │       │   ├── JsonReaderUtil.java    # JSON data handling
+│   │       │   └── XLReaderUtil.java      # Excel data handling
+│   │       ├── reportRelated/
+│   │       │   ├── Log4jManager.java      # Logging utilities
+│   │       │   └── TestListener.java      # Test reporting
+│   │       └── webActionRelated/
+│   │           ├── BrowserUtil.java       # Browser initialization
+│   │           ├── AssertUtil.java        # Custom assertions
+│   │           ├── WaitForFileDownloadUtil.java
+│   │           └── DragAndDropUtil.java
+│   │
+│   └── resources/
+│       ├── locators/locators.xml          # Element locators
+│       ├── testdata/
+│       │   ├── test-data.json
+│       │   └── test-data.xlsx
+│       └── log4j2.properties              # Logger configuration
+│
+├── runner/                                 # TestNG suite files
 │   ├── regression/
 │   │   ├── interactionRunner.xml
 │   │   └── widgetsModulePtOneRunner.xml
 │   └── smoke/
 │       └── widgetsModulePtTwoRunner.xml
-├── Screenshots/                                        # Test screenshots
-├── extentReports/                                      # ExtentReports HTML reports
-├── logs/                                               # Log files
-├── pom.xml                                             # Maven configuration
-└── README.md
+│
+├── extentReports/                         # Test reports (auto-generated)
+├── Screenshots/                           # Test failure screenshots
+├── logs/                                  # Application logs
+├── docs/                                  # Documentation
+│   ├── SETUP.md
+│   ├── TEST_EXECUTION.md
+│   └── BEST_PRACTICES.md
+├── .github/workflows/
+│   └── test.yml                           # GitHub Actions workflow
+├── .gitignore
+├── pom.xml                                # Maven configuration
+├── README.md
+├── CHANGELOG.md
+└── LICENSE
 ```
 
-## Usage
+---
 
-### Creating Page Objects
+## 🏃 Running Tests
+
+### Basic Commands
+
+```bash
+# Run all tests
+mvn clean test
+
+# Run on specific browser
+mvn clean test -Dbrowser=chrome
+mvn clean test -Dbrowser=firefox
+mvn clean test -Dbrowser=edge
+```
+
+### Run Specific Test Suites
+
+```bash
+# Interactions module (regression)
+mvn test -Dsurefire.suiteXmlFiles=src/test/resources/runner/regression/interactionRunner.xml
+
+# Widgets module part one (regression)
+mvn test -Dsurefire.suiteXmlFiles=src/test/resources/runner/regression/widgetsModulePtOneRunner.xml
+
+# Widgets module part two (smoke)
+mvn test -Dsurefire.suiteXmlFiles=src/test/resources/runner/smoke/widgetsModulePtTwoRunner.xml
+
+# Multiple suites
+mvn test -Dsurefire.suiteXmlFiles=src/test/resources/runner/regression/interactionRunner.xml,src/test/resources/runner/regression/widgetsModulePtOneRunner.xml
+```
+
+### Parallel Execution
+
+```bash
+# Run tests with 4 parallel threads
+mvn clean test -Dparallel=methods -DthreadCount=4
+
+# Run tests with 8 parallel threads
+mvn clean test -Dparallel=methods -DthreadCount=8
+
+# Run test classes in parallel
+mvn clean test -Dparallel=classes -DthreadCount=4
+```
+
+### Combined Examples
+
+```bash
+# Firefox with parallel execution (4 threads)
+mvn clean test -Dbrowser=firefox -Dparallel=methods -DthreadCount=4
+
+# Specific suite on Firefox in parallel
+mvn test \
+  -Dbrowser=firefox \
+  -Dsurefire.suiteXmlFiles=src/test/resources/runner/regression/interactionRunner.xml \
+  -Dparallel=methods \
+  -DthreadCount=4
+
+# All tests on Chrome with maximum parallel threads
+mvn clean test -Dbrowser=chrome -Dparallel=methods -DthreadCount=8
+```
+
+### View Test Reports
+
+```bash
+# ExtentReports (Rich HTML report with screenshots)
+open extentReports/myExtentReport*.html      # macOS
+start extentReports/myExtentReport*.html     # Windows
+
+# TestNG Reports
+open target/surefire-reports/index.html      # macOS
+start target/surefire-reports/index.html     # Windows
+```
+
+---
+
+## 🎯 Usage Guide
+
+### Creating a New Page Object
 
 Page Objects encapsulate the elements and actions of a web page:
 
 ```java
-public class JQueryUIPage {
-    private WebDriver driver;
+package com.automation.jQuery.pages.interactionsModule;
+
+import com.automation.jQuery.bases.PageBase;
+import org.openqa.selenium.By;
+
+public class DragAndDropPage extends PageBase {
     
-    @FindBy(id = "accordion")
-    private WebElement accordion;
+    // Element locators
+    private By dragItem = By.id("draggable");
+    private By dropZone = By.id("droppable");
+    private By successMessage = By.xpath("//p[text()='Dropped!']");
     
-    public JQueryUIPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    // Page actions
+    public void dragAndDropItem() {
+        logger.info("Dragging item to drop zone");
+        dNdUtil.dragNdrop(dragItem, dropZone);
     }
     
-    public void clickAccordion() {
-        accordion.click();
+    public String getSuccessMessage() {
+        return driver.findElement(successMessage).getText();
+    }
+    
+    // Fluent interface for method chaining
+    public DragAndDropPage verifyDropped(String expectedMsg) {
+        assertUtil.verifyMsg(successMessage, expectedMsg);
+        logger.info("Verified: " + expectedMsg);
+        return this;
     }
 }
 ```
 
-### Writing Tests
+### Writing a Test Case
 
-Tests are written using TestNG annotations:
+Tests are written using TestNG annotations following Arrange-Act-Assert pattern:
 
 ```java
-public class JQueryUITest extends BaseTest {
+package com.automation.jQuery.tests.regression.interactionsModuleTests;
+
+import com.automation.jQuery.bases.TestBase;
+import com.automation.jQuery.pages.interactionsModule.DragAndDropPage;
+import org.testng.annotations.Test;
+
+public class DragAndDropTest extends TestBase {
     
-    @Test
-    public void testAccordionFunctionality() {
-        JQueryUIPage page = new JQueryUIPage(driver);
-        page.clickAccordion();
-        // Add assertions
+    @Test(description = "Verify user can drag and drop an item successfully")
+    public void testDragAndDropFunctionality() {
+        // Arrange
+        DragAndDropPage page = new DragAndDropPage();
+        String expectedMessage = "Dropped!";
+        
+        // Act
+        page.dragAndDropItem();
+        
+        // Assert
+        page.verifyDropped(expectedMessage);
+    }
+    
+    @Test(description = "Verify multiple drag and drop operations")
+    public void testMultipleDragOperations() {
+        DragAndDropPage page = new DragAndDropPage();
+        
+        // Method chaining for fluent interface
+        page.dragAndDropItem()
+            .verifyDropped("Dropped!")
+            .dragAndDropItem()
+            .verifyDropped("Dropped!");
     }
 }
 ```
 
-## Running Tests
+### Using Element Locators from XML
 
-### Run all tests:
-```bash
-mvn clean test
-```
-
-### Run specific test suite:
-```bash
-mvn clean test -DsuiteXmlFile=testng.xml
-```
-
-### Run tests in parallel:
-```bash
-mvn clean test -Dparallel=methods -DthreadCount=4
-```
-
-### Run tests for specific browser:
-```bash
-mvn clean test -Dbrowser=chrome
-```
-
-## Configuration
-
-### TestNG Configuration (testng.xml)
-
-Configure test suites, parallel execution, and parameters:
+Store locators in `src/test/resources/locators/locators.xml`:
 
 ```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+    <DragAndDropPage>
+        <dragItem>//div[@id='draggable']</dragItem>
+        <dropZone>//div[@id='droppable']</dropZone>
+        <successMsg>//p[text()='Dropped!']</successMsg>
+    </DragAndDropPage>
+</Pages>
+```
+
+Load in your Page Object:
+
+```java
+Document document = xmlReader.getData("/src/test/resources/locators/locators.xml");
+private By dragItem = By.xpath(document.selectSingleNode("//Pages/DragAndDropPage/dragItem").getText());
+```
+
+### Reading Test Data
+
+**From Excel:**
+```java
+String username = xlRead.readCell("test-data.xlsx", 0, 1, 0);
+String password = xlRead.readCell("test-data.xlsx", 0, 2, 0);
+```
+
+**From JSON:**
+```java
+String apiUrl = jsonUtil.getJsonValue("config.json", "api.baseUrl");
+```
+
+---
+
+## ⚙️ Configuration
+
+### Browser Setup (TestBase.java)
+
+```java
+@BeforeMethod
+public void beforeEachMethod() {
+    String browser = System.getProperty("browser", "chrome");
+    System.out.println("Starting browser: " + browser);
+    
+    driver = BrowserUtil.startBrowser(browser);
+    driver.get("https://jqueryui.com/");
+}
+
+@AfterMethod
+public void afterEachMethod() {
+    if (driver != null) {
+        driver.quit();
+    }
+}
+```
+
+### Log4j2 Configuration (log4j2.properties)
+
+```properties
+status = warn
+name = Log4j2Config
+
+# Console appender
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+
+# File appender
+appender.file.type = File
+appender.file.name = LOGFILE
+appender.file.fileName = logs/automation.log
+appender.file.layout.type = PatternLayout
+appender.file.layout.pattern = %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+
+# Root logger
+rootLogger.level = info
+rootLogger.appenderRef.stdout.ref = STDOUT
+rootLogger.appenderRef.file.ref = LOGFILE
+```
+
+### TestNG Suite Configuration Example
+
+Create `runner/regression/interactionRunner.xml`:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="jQuery UI Test Suite" parallel="methods" thread-count="4">
-    <test name="jQuery UI Tests">
+<suite name="Interactions Module Suite" parallel="methods" thread-count="4">
+    <test name="Drag and Drop Tests">
         <classes>
-            <class name="tests.JQueryUITest"/>
+            <class name="com.automation.jQuery.tests.regression.interactionsModuleTests.DragAndDropTest"/>
+            <class name="com.automation.jQuery.tests.regression.interactionsModuleTests.ResizableTest"/>
         </classes>
     </test>
 </suite>
 ```
 
-### Log4j2 Configuration
+---
 
-Customize logging levels and output formats in `log4j2.xml`:
-
-```xml
-<Configuration status="WARN">
-    <Appenders>
-        <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-        </Console>
-    </Appenders>
-    <Loggers>
-        <Root level="info">
-            <AppenderRef ref="Console"/>
-        </Root>
-    </Loggers>
-</Configuration>
-```
-
-## Reporting
+## 📊 Test Reports
 
 ### ExtentReports
 
-After test execution, ExtentReports generates detailed HTML reports in the `test-output` directory. Open `ExtentReport.html` in a browser to view:
+After test execution, a comprehensive HTML report is generated automatically.
 
-- Test execution summary
-- Pass/fail statistics
-- Screenshots of failures
-- Detailed logs and stack traces
-- Test execution timeline
+**Location:** `extentReports/myExtentReport[timestamp].html`
+
+**Includes:**
+- ✅ Test execution summary (Pass/Fail/Skip statistics)
+- 📊 Visual charts and timeline
+- 📸 Screenshots on test failure
+- 📝 Detailed logs and stack traces
+- ⏱️ Test execution duration
+- 🏷️ Test categories and tags
 
 ### TestNG Reports
 
-TestNG also generates default reports:
-- `test-output/index.html`: Main report
-- `test-output/emailable-report.html`: Email-friendly report
+Default reports in `target/surefire-reports/`:
+- `index.html` - Main report
+- `emailable-report.html` - Email-friendly version
 
-# Video Walkthrough
+### Application Logs
 
-Here's a walkthrough of test run:
+Logs stored in `logs/automation.log` with complete execution details.
 
-<img src='/jquery-tdd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+---
 
-# Contributing
+## ❓ FAQ & Troubleshooting
 
-Contributions are welcome! Please follow these steps:
+**Q: Tests fail with "ChromeDriver not found"**
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+A: WebDriverManager handles this automatically. If issues persist:
+```bash
+mvn clean install -U
+mvn test -Dbrowser=chrome
+```
 
-## License
+**Q: How do I run only regression tests?**
 
-This project is available for use under the terms specified by the repository owner.
+A: Use the specific suite file:
+```bash
+mvn test -Dsurefire.suiteXmlFiles=src/test/resources/runner/regression/interactionRunner.xml
+```
+
+**Q: Can I run tests on Firefox?**
+
+A: Yes! Use the browser parameter:
+```bash
+mvn clean test -Dbrowser=firefox
+```
+
+**Q: How do I run tests in parallel?**
+
+A: Use the parallel configuration:
+```bash
+mvn clean test -Dparallel=methods -DthreadCount=4
+```
+
+**Q: Where are the test reports?**
+
+A: Two locations:
+- ExtentReports (Rich HTML): `extentReports/myExtentReport*.html`
+- TestNG Reports: `target/surefire-reports/index.html`
+
+**Q: How do I add a new test case?**
+
+A: Follow these steps:
+1. Create a new Page Object in `src/test/java/com/automation/jQuery/pages/`
+2. Define element locators using `By` class
+3. Create a test class in `src/test/java/com/automation/jQuery/tests/`
+4. Extend `TestBase` and write test methods using TestNG annotations
+5. Add test class to appropriate TestNG suite XML file in `runner/`
+6. Run tests: `mvn clean test`
+
+**Q: How do I update element locators?**
+
+A: Two options:
+
+Option 1 - Using locators.xml:
+```xml
+<Pages>
+    <YourPage>
+        <element>//xpath/to/element</element>
+    </YourPage>
+</Pages>
+```
+
+Option 2 - Direct in Page Object:
+```java
+private By element = By.xpath("//xpath/to/element");
+```
+
+**Q: Tests are slow. How can I speed them up?**
+
+A: Use parallel execution with more threads:
+```bash
+mvn clean test -Dparallel=methods -DthreadCount=8
+```
+
+**Q: SLF4J warning: "No SLF4J providers were found"**
+
+A: Already fixed in pom.xml with Log4j2 SLF4J binding. If persists:
+```bash
+mvn clean install -U
+```
+
+**Q: ExtentReports not generating**
+
+A: Ensure `@BeforeSuite` is calling `onExtentSetup()`:
+```java
+@BeforeSuite
+public void beforeEachSuite() {
+    onExtentSetup();  // Initialize ExtentReports
+}
+```
+
+**Q: Jenkins job failing with path issues**
+
+A: Update suite file paths in pom.xml to use full paths:
+```xml
+<suiteXmlFile>src/test/resources/runner/regression/interactionRunner.xml</suiteXmlFile>
+```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please follow these steps:
+
+### 1. Fork the Repository
+Click the "Fork" button on GitHub to create your own copy.
+
+### 2. Create a Feature Branch
+```bash
+git checkout -b feature/your-amazing-feature
+```
+
+### 3. Add Your Changes
+Write test cases following the existing patterns:
+- Create Page Objects for new pages
+- Write test cases using TestNG
+- Update locators.xml for new elements
+- Include meaningful comments
+
+### 4. Ensure Tests Pass
+```bash
+mvn clean test
+```
+
+### 5. Commit with Meaningful Messages
+```bash
+git commit -m "feat: Add new test case for Accordion widget"
+git commit -m "fix: Update broken XPath locator"
+git commit -m "docs: Add setup instructions"
+```
+
+### 6. Push to Your Branch
+```bash
+git push origin feature/your-amazing-feature
+```
+
+### 7. Submit a Pull Request
+- Go to GitHub and click "New Pull Request"
+- Describe your changes clearly
+- Reference any related issues
+
+### Contribution Guidelines
+- ✅ Follow existing naming conventions
+- ✅ Write meaningful commit messages
+- ✅ Add Page Objects for new pages
+- ✅ Include test cases for new features
+- ✅ Update locators.xml for new elements
+- ✅ Ensure all tests pass before submitting PR
+- ✅ Update documentation if needed
+
+---
+
+## 📄 License
+
+This project is available for use under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🎬 Video Walkthrough
+
+Here's a walkthrough of a test run:
+
+[![Video Walkthrough](jquery-tdd.gif "Test Execution Walkthrough")](jquery-tdd.gif)
+
+---
+
+## 📫 Support & Contact
+
+- 🐛 Found a bug? [Open an issue](https://github.com/gulziraAbudula/jquery-selenium-automation-tdd/issues)
+- 💡 Have a suggestion? [Start a discussion](https://github.com/gulziraAbudula/jquery-selenium-automation-tdd/discussions)
+- ❓ Questions? Check the [FAQ section](#faq--troubleshooting) above
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Gulzira Abdullah](https://github.com/gulziraAbudula)**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gulziraa/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gulziraAbudula)
+
+If you found this framework helpful, please consider giving it a ⭐
+
+</div>
